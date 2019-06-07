@@ -14,6 +14,7 @@ Baixe o rpo (.tar.xz - https://mega.nz/#!fPhxCagQ!Qz3gZacUpSOlm60jvOQdPHrvVcX7kE
 Abra o terminal e acesse a pasta do repositório (docker-mssql), rode os comandos:
 
 $ sudo docker-compose build 
+
 $ sudo docker-compose up
 
 Acesse o data azure studio (https://docs.microsoft.com/en-us/sql/azure-data-studio/download?view=sql-server-2017), acesse como localhost, usuário: sa, senha: P@55w0rd
