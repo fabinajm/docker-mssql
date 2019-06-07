@@ -6,7 +6,7 @@ Docker é um _runtime_ para execução de LinuX _Containers_ (LXC). Este reposit
 
 ## Como usar esta imagem ?
 
-Instale o Docker Compose e clone o repositório Git:
+Instale o Docker Compose (https://docs.docker.com/compose/install/) e clone o repositório Git:
 
 $ git clone https://github.com/fabinajm/docker-mssql
 
