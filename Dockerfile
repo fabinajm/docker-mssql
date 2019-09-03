@@ -68,6 +68,7 @@ ADD appsrvlinux.tar.gz /totvs12/protheus/bin/appserver
 ADD libctreetmp.tar.gz /totvs12/protheus/bin/appserver
 ADD libdtsearch.tar.gz /totvs12/protheus/bin/appserver
 ADD printer.tar.gz /totvs12/protheus/bin/appserver
+ADD webapp-linux-x86.tar.gz /totvs12/protheus/bin/appserver
 ADD tttp120.tar.xz /totvs12/protheus/apo
 ADD system.tar.xz /totvs12/protheus_data
 ADD systemload.tar.xz /totvs12/protheus_data
@@ -75,7 +76,7 @@ ADD systemload.tar.xz /totvs12/protheus_data
 ADD /build /build
 RUN /build/setup.sh
 
-EXPOSE 7890 1433
+EXPOSE 7890 1433 8085 8081
 
 WORKDIR /opt/totvs/dbaccess/multi
 
