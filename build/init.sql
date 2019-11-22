@@ -6,5 +6,4 @@ CREATE LOGIN [siga] WITH PASSWORD=N'Sig@1234', DEFAULT_DATABASE=[DadosADV], CHEC
 GO
 EXEC master..sp_addsrvrolemember @loginame = N'siga', @rolename = N'sysadmin'
 GO
-DROP TABLE TESTE
-GO
+

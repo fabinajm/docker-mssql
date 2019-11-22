@@ -63,12 +63,12 @@ RUN DUMB_INIT_SHA256="37f2c1f0372a45554f1b89924fbb134fc24c3756efaedf11e07f599494
 ### Containers should not run as root as a good practice
 USER root
 
-ADD 19-02-14-DBACCESS_LINUX_X86_BUILD-20181212.tar.xz /opt/totvs/dbaccess
+ADD 19-02-14-DBACCESS_LINUX_X64_BUILD-20181212.TAR.GZ /opt/totvs/dbaccess
 ADD appsrvlinux.tar.gz /totvs12/protheus/bin/appserver
 ADD libctreetmp.tar.gz /totvs12/protheus/bin/appserver
 ADD libdtsearch.tar.gz /totvs12/protheus/bin/appserver
-ADD printer.tar.gz /totvs12/protheus/bin/appserver
 ADD webapp-linux-x86.tar.gz /totvs12/protheus/bin/appserver
+ADD printer.tar.gz /totvs12/protheus/bin/appserver
 ADD tttp120.tar.xz /totvs12/protheus/apo
 ADD system.tar.xz /totvs12/protheus_data
 ADD systemload.tar.xz /totvs12/protheus_data
