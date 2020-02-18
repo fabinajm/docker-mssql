@@ -10,7 +10,7 @@ Instale o Docker Compose (https://docs.docker.com/compose/install/) e clone o re
 
 $ git clone https://github.com/fabinajm/docker-mssql
 
-Baixe o rpo (.tar.xz - https://mega.nz/#!fPhxCagQ!Qz3gZacUpSOlm60jvOQdPHrvVcX7kEZt4t6s9NcNMQM) e copie para a pasta docker-mssql do git. 
+Baixe o rpo (.tar.xz - https://www.dropbox.com/s/l626mb2094z9y76/tttp120.tar.xz?dl=0) e copie para a pasta docker-mssql do git. 
 Abra o terminal e acesse a pasta do repositório (docker-mssql), rode os comandos:
 
 $ sudo docker-compose build 
